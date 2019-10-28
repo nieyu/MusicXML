@@ -1,4 +1,4 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.1
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -12,8 +12,8 @@ let package = Package(
             targets: ["MusicXML"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/jsbean/XMLCoder", from: "0.8.1"),
-        .package(url: "https://github.com/jpsim/Yams.git", from: "2.0.0")
+        .package(url: "https://github.com/nieyu/XMLCoder", from: "0.9.0"),
+        .package(url: "https://github.com/nieyu/Yams.git", from: "2.0.1")
     ],
     targets: [
         .target(
